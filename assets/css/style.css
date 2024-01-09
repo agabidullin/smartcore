@@ -1454,12 +1454,28 @@ section {
   margin-bottom: 20px;
 }
 
-#contact .php-email-form input,
+#contact .php-email-form input, 
+#contact .php-email-form select, 
 #contact .php-email-form textarea {
   padding: 10px 14px;
   border-radius: 0;
   box-shadow: none;
   font-size: 15px;
+}
+
+#contact .php-email-form input::placeholder,
+#contact .php-email-form textarea::placeholder {
+  color: #9e9e9e;
+}
+
+#contact .php-email-form select:required:invalid {
+  color: #9e9e9e;
+}
+#contact .php-email-form option[value=""][disabled] {
+  display: none;
+}
+#contact .php-email-form option {
+  color: #000;
 }
 
 #contact .php-email-form input::focus,
