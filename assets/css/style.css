@@ -1454,9 +1454,9 @@ section {
   margin-bottom: 20px;
 }
 
-#contact .php-email-form input, 
-#contact .php-email-form select, 
-#contact .php-email-form textarea {
+#contact .php-email-form input,
+#contact .php-email-form textarea,
+#contact .php-email-form select {
   padding: 10px 14px;
   border-radius: 0;
   box-shadow: none;
